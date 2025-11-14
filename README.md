@@ -53,27 +53,29 @@ Elizabeth was a great deal of the room and the first of the room and the first o
 > The model demonstrates structural learning and repetition typical of early-epoch LSTMs. Longer training reduced `<unk>` tokens and improved fluency.
 
 ---
+## 📁 Folder Structure
 
-### 🧩 Folder Structure
-'''
+```
 IIIT_Assignment2/
 ├── data/
-│ └── Pride_and_Prejudice-Jane_Austen.txt
+│   └── Pride_and_Prejudice-Jane_Austen.txt
 ├── src/
-│ ├── data_utils.py
-│ ├── model.py
-│ ├── train.py
+│   ├── data_utils.py
+│   ├── model.py
+│   ├── train.py
 ├── results/
-│ ├── loss_plot.png
-│ ├── model_best.pth
-│ ├── model_bestfit_long.pth
-│ ├── model_bestfit.pth
-│ ├── model_overfit.pth
-│ ├── model_underfit.pth
+│   ├── model_underfit.pth
+│   ├── model_overfit.pth
+│   ├── model_bestfit.pth
+│   ├── loss_underfit.png
+│   ├── loss_overfit.png
+│   ├── loss_bestfit.png
 ├── notebooks/
-│ └── assignment2.ipynb
-└── Assignment2_report.pdf
-'''
+│   └── assignment2_colab.ipynb
+└── report.pdf
+```
+
+
 
 
 ---
