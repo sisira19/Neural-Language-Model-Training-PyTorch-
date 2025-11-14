@@ -6,7 +6,7 @@ Train a Neural Language Model from scratch using PyTorch to understand how model
 ---
 
 ### 🧾 Dataset  
-**Dataset:** *Pride and Prejudice – Jane Austen* (provided by IIIT Hyderabad)  
+**Dataset:** *Pride and Prejudice – Jane Austen* 
 - Total characters: ~711k  
 - Vocabulary size: 3,164 (after min_freq=3)  
 - Train/validation split: 90/10  
