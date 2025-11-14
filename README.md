@@ -1,6 +1,4 @@
-# Neural-Language-Model-Training-PyTorch-
-# IIIT Hyderabad – Assignment 2  
-## Neural Language Model Training (PyTorch)
+# Neural Language Model Training (PyTorch)
 
 ### 📘 Objective  
 Train a Neural Language Model from scratch using PyTorch to understand how model architecture and training affect text prediction and perplexity.
@@ -85,3 +83,101 @@ IIIT_Assignment2/
 python src/train.py
 
 4.View results and plots in the results/ folder.
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sisira19/Neural-Language-Model-Training-PyTorch-.git
+cd Neural-Language-Model-Training-PyTorch-
+```
+
+### 2️⃣ Install Dependencies
+```bash
+pip install torch numpy matplotlib tqdm
+```
+
+---
+
+## 🏋️‍♂️ Training Instructions
+
+Run training for different configurations:
+
+### **Underfit**
+```bash
+python src/train.py --config underfit
+```
+
+### **Overfit**
+```bash
+python src/train.py --config overfit
+```
+
+### **Best-fit**
+```bash
+python src/train.py --config bestfit
+```
+
+The script will:
+
+✔️ Load dataset  
+✔️ Train the model  
+✔️ Save weights to `results/`  
+✔️ Save loss plots  
+
+---
+
+## 🧪 Text Generation (Inference)
+
+Use a trained model to generate text:
+
+```bash
+python src/train.py --generate --model_path results/model_bestfit.pth
+```
+
+---
+
+## 🔗 Download Trained Models (Google Drive)
+
+All trained models are available in a public Google Drive folder:
+
+📁 **Google Drive (Models + Results):**  
+https://drive.google.com/drive/folders/15Dvyty1zYdVIHajjTq-6R2A-5SJqzCkc?usp=drive_link
+
+This includes:
+
+- `model_underfit.pth`  
+- `model_overfit.pth`  
+- `model_bestfit.pth`  
+- Additional experimental files  
+- Loss plots  
+
+---
+
+## 📊 Results Summary
+
+The `results/` folder includes:
+
+- `loss_plot.png` — combined loss visualization  
+- Underfit / Overfit / Best-fit model weights  
+- Trained model variants (`best`, `bestfit_long`)  
+
+These plots help compare convergence behavior and model quality.
+
+---
+
+## ⭐ Extra Credit Work
+
+This project includes:
+
+- Multiple model experiments  
+- Proper training pipeline  
+- Organized code structure  
+- Loss visualizations  
+- Reproducible results  
+- Additional long-training best-fit model (`model_bestfit_long.pth`)  
+
+---
+
+## 👨‍💻 Author
+**Sisira**
