@@ -75,13 +75,6 @@ IIIT_Assignment2/
 └── Assignment_report.pdf
 ```
 
-```
-
-
-
-
----
-
 ### 🚀 How to Run
 1. Clone the repository and install dependencies:
    ```bash
