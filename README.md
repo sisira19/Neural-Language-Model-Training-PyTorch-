@@ -62,17 +62,19 @@ IIIT_Assignment2/
 ├── src/
 │   ├── data_utils.py
 │   ├── model.py
-│   ├── train.py
+│   └── train.py
 ├── results/
-│   ├── model_underfit.pth
-│   ├── model_overfit.pth
+│   ├── loss_plot.png
+│   ├── model_best.pth
+│   ├── model_bestfit_long.pth
 │   ├── model_bestfit.pth
-│   ├── loss_underfit.png
-│   ├── loss_overfit.png
-│   ├── loss_bestfit.png
+│   ├── model_overfit.pth
+│   └── model_underfit.pth
 ├── notebooks/
-│   └── assignment2_colab.ipynb
-└── report.pdf
+│   └── assignment2.ipynb
+└── Assignment_report.pdf
+```
+
 ```
 
 
