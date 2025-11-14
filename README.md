@@ -55,6 +55,7 @@ Elizabeth was a great deal of the room and the first of the room and the first o
 ---
 
 ### 🧩 Folder Structure
+'''
 IIIT_Assignment2/
 ├── data/
 │ └── Pride_and_Prejudice-Jane_Austen.txt
@@ -71,7 +72,8 @@ IIIT_Assignment2/
 │ ├── model_underfit.pth
 ├── notebooks/
 │ └── assignment2.ipynb
-└── report.pdf
+└── Assignment2_report.pdf
+'''
 
 
 ---
